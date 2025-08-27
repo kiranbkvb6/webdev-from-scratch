@@ -39,7 +39,38 @@
     <hr>
     <main>
         <!-- content changes here -->
+        <section>
+            <h2>Our Contact Form</h2>
+            <form action="https://httpbin.org/get" method="get">
+                <fieldset>
+                    <legend>Send Us A Message</legend>
+                    <p>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </p>
+                    <p>
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" placeholder="Your Email" required>
+                    </p>
+                    <p><label for="message">Your Message:</label><br>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Type ur mesg here"></textarea>
+                    </p>
+                </fieldset>
+                <button type="submit">Send</button>
+                <button type="reset">Reset</button>
+            </form>
+        </section>
+        <section>
+            <h2>Our Location</h2>
+            <address>
+                876 bihari Street<br>
+                New Delhi, DL 110001<br>
+                <br>
 
+                Phone: <a href="tel:+911234567890">+91 1234567890</a><br>
+                Email: <a href="mailto:info@thelitt letacoshop.com">info@thelitt letacoshop.com</a><br>
+            </address>
+        </section>
     </main>
     <hr>
     <footer>
